@@ -1,0 +1,6 @@
+git+https://github.com/Chaoses-Ib/ComfyScript.git
+gradio>=3.50.2
+pillow>=9.0.0
+requests>=2.28.0
+websockets>=11.0.0
+python-dotenv>=1.0.0

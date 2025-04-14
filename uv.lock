@@ -1,0 +1,7 @@
+version = 1
+requires-python = ">=3.11"
+
+[[package]]
+name = "styleweaver"
+version = "0.1.0"
+source = { virtual = "C:\Workplace\Stable_Diffusion_Comfyui\ComfyUI\python" }
