@@ -204,7 +204,7 @@ export default function ComfyUIInterface() {
       const data = await response.json()
 
       if (data.success && data.image_url) {
-        setGeneratedImage(data.image_url)
+        setGeneratedImage(apiBaseUrl + data.image_url)
         toast({
           title: "生成成功",
           description: "图像已成功生成",
